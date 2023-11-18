@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="output.css
+  "
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <!-- Global Container -->
+    <div class="flex justify-center items-center min-h-screen md:p-0 w-screen">
+      <!-- Card Container -->
+      <div class="shadow-2xl bg-white flex flex-col md:flex-row rounded-3xl">
+        <!-- Gradient Container -->
+        <div
+          class="rounded-t-0 rounded-b-3xl md:rounded-t-3xl p-8 bg-gradient-to-b from-indigo-500 via-indigo-600 to-indigo-700 text-center flex flex-col items-center font-serif space-y-6 text-white md:w-1/2"
+        >
+          <div class="text-2xl font-bold text-slate-300">Your Result</div>
+          <div
+            class="rounded-full bg-gradient-to-t from-0% from-indigo-600 to-90% to-indigo-700 p-10 px-12"
+          >
+            <div class="text-6xl font-bold">76</div>
+            <div class="text-md font-thin">of 100</div>
+          </div>
+          <div class="space-y-4">
+            <div class="text-3xl">Great</div>
+            <div class="max-w-xs text-slate-300 text-lg">
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </div>
+          </div>
+        </div>
+        <!-- 2nd Container -->
+        <div class="md:w-1/2 p-6 md:px-10 font-serif">
+          <h1 class="font-bold text-2xl">Summary</h1>
+          <div
+            class="flex flex-col justify-center items-center space-y-5 py-10 text-lg"
+          >
+            <div
+              class="bg-pink-50 py-3 rounded-xl px-4 w-full flex justify-between"
+            >
+              <div class="text-red-400 font-bold flex space-x-2">
+                <img src="./assets/images/icon-reaction.svg" alt="" />
+                <div>Reaction</div>
+              </div>
+              <div class="">
+                <span class="font-bold text-slate-600">80</span>
+                <span class="font-bold text-gray-400">/100</span>
+              </div>
+            </div>
+            <div
+              class="bg-stone-50 py-3 rounded-xl px-4 w-full flex justify-between"
+            >
+              <div class="text-amber-300 font-bold flex space-x-2">
+                <img src="./assets/images/icon-memory.svg" alt="" />
+                <div>Memory</div>
+              </div>
+              <div class="">
+                <span class="font-bold text-slate-600">92</span>
+                <span class="font-bold text-gray-400">/100</span>
+              </div>
+            </div>
+            <div
+              class="bg-teal-50 py-3 rounded-xl px-4 w-full flex justify-between"
+            >
+              <div class="text-emerald-500 font-bold flex space-x-2">
+                <img src="./assets/images/icon-verbal.svg" alt="" />
+                <div>Verbal</div>
+              </div>
+              <div class="">
+                <span class="font-bold text-slate-600">61</span>
+                <span class="font-bold text-gray-400">/100</span>
+              </div>
+            </div>
+            <div
+              class="bg-violet-50 py-3 rounded-xl px-4 w-full flex justify-between"
+            >
+              <div class="text-indigo-700 font-bold flex space-x-2">
+                <img src="./assets/images/icon-visual.svg" alt="" />
+                <div>Visual</div>
+              </div>
+              <div class="">
+                <span class="font-bold text-slate-600">72</span>
+                <span class="font-bold text-gray-400">/100</span>
+              </div>
+            </div>
+          </div>
+          <button
+            class="bg-slate-700 w-full text-white p-3 rounded-full hover:bg-indigo-700 duration-200"
+          >
+            Continue
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
