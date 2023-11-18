@@ -536,10 +536,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.m-20{
-  margin: 5rem;
-}
-
 .flex{
   display: flex;
 }
@@ -556,20 +552,20 @@ video {
   width: 100vw;
 }
 
-.max-w-xs{
-  max-width: 20rem;
+.max-w-lg{
+  max-width: 32rem;
 }
 
-.max-w-xl{
-  max-width: 36rem;
-}
-
-.max-w-3xl{
-  max-width: 48rem;
+.max-w-md{
+  max-width: 28rem;
 }
 
 .max-w-sm{
   max-width: 24rem;
+}
+
+.max-w-xs{
+  max-width: 20rem;
 }
 
 .flex-col{
@@ -712,14 +708,6 @@ video {
   padding: 2rem;
 }
 
-.p-4{
-  padding: 1rem;
-}
-
-.p-20{
-  padding: 5rem;
-}
-
 .px-12{
   padding-left: 3rem;
   padding-right: 3rem;
@@ -730,29 +718,14 @@ video {
   padding-right: 1rem;
 }
 
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
 
-.py-8{
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.px-20{
-  padding-left: 5rem;
-  padding-right: 5rem;
 }
 
 .text-center{
@@ -859,18 +832,6 @@ video {
     width: 66.666667%;
   }
 
-  .md\:w-2\/4{
-    width: 50%;
-  }
-
-  .md\:w-2\/5{
-    width: 40%;
-  }
-
-  .md\:w-3\/5{
-    width: 60%;
-  }
-
   .md\:flex-row{
     flex-direction: row;
   }
@@ -878,14 +839,6 @@ video {
   .md\:rounded-t-3xl{
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
-  }
-
-  .md\:p-0{
-    padding: 0px;
-  }
-
-  .md\:p-2{
-    padding: 0.5rem;
   }
 
   .md\:p-10{
